@@ -3,10 +3,11 @@
 
 html,
 body {
-  // font-family: "xanti-typewriter-variable", sans-serif;
-  // font-variation-settings: "wght" 800;
-  font-family: "mokoko-variable", sans-serif;
-  font-variation-settings: "wght" 500;
+  font-family: "xanti-typewriter-variable", sans-serif;
+  font-variation-settings: "wght" 600;
+//   font-family: "prestige-elite-std", monospace;
+// font-weight: 800;
+// font-style: normal;
   font-size: 16px;
 
   // making sure the fonts will render the same across different web browsers
@@ -28,6 +29,8 @@ li {
 }
 
 h1 {
+  font-family: "mokoko-variable", sans-serif;
+  font-variation-settings: "wght" 500;
   font-size: 4em;
   text-align: center;
   font-variation-settings: "wght" 700;
