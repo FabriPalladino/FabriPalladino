@@ -1,3 +1,6 @@
+:root {
+}
+
 html,
 body {
   // font-family: "xanti-typewriter-variable", sans-serif;
@@ -10,4 +13,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  font-variation-settings: "wght" 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

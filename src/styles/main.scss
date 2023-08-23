@@ -6,7 +6,12 @@
 @import '~normalize.css/normalize';
 
 @import 'vars';
-@import 'typography';
+@import 'base/base.colors';
+@import 'base/base.spacing';
+@import 'base/base.typography';
+@import 'base/base.section';
+
+@import 'components/components.header';
 
 .wrapper {
   width: 100%;
@@ -21,4 +26,13 @@
 
 label {
   display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
 }

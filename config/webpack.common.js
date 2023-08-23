@@ -20,7 +20,11 @@ module.exports = {
         test: /\.hbs$/,
         use: [
           {
-            loader: 'handlebars-loader'
+            loader: 'handlebars-loader',
+            options: {
+              // This option tells to to require the assest 👇
+              inlineRequires: 'assests',
+            }
           },
           {
             loader: 'extract-loader'

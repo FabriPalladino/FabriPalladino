@@ -1,0 +1,14 @@
+:root {
+    --fp-text-color: #333;
+    --fp-link-color: #557;
+    --fp-bg-body: #e0ded1;
+}
+
+body {
+    background-color: var(--fp-bg-body);
+    color: var(--fp-text-color);
+}
+
+a {
+    color: var(--fp-link-color);
+}
