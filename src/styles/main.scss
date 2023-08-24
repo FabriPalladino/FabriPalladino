@@ -3,15 +3,17 @@
   Feel free to remove everything.
 */
 
-@import '~normalize.css/normalize';
+@import "~normalize.css/normalize";
 
-@import 'vars';
-@import 'base/base.colors';
-@import 'base/base.spacing';
-@import 'base/base.typography';
-@import 'base/base.section';
+@import "vars";
+@import "base/base.colors";
+@import "base/base.spacing";
+@import "base/base.typography";
+@import "base/base.section";
 
-@import 'components/components.header';
+@import "components/components.header";
+
+@import "pages/pages.article";
 
 .wrapper {
   width: 100%;

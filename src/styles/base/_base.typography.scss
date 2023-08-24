@@ -1,13 +1,14 @@
 :root {
+  --fp-font-weight: 400;
 }
 
 html,
 body {
   font-family: "xanti-typewriter-variable", sans-serif;
-  font-variation-settings: "wght" 600;
-//   font-family: "prestige-elite-std", monospace;
-// font-weight: 800;
-// font-style: normal;
+  font-variation-settings: "wght" var(--fp-font-weight);
+  //   font-family: "prestige-elite-std", monospace;
+  // font-weight: 800;
+  // font-style: normal;
   font-size: 16px;
 
   // making sure the fonts will render the same across different web browsers
@@ -23,9 +24,18 @@ h4,
 h5,
 h6,
 p,
-li {
+li,
+span,
+strong {
   margin: 0;
   line-height: 1.5;
+  font-variation-settings: inherit;
+}
+
+strong,
+h3 {
+  --fp-font-weight: 900;
+  font-variation-settings: "wght" var(--fp-font-weight);
 }
 
 h1 {
